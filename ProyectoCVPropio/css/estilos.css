@@ -1,0 +1,25 @@
+body { 
+    background-color: rgba(201, 119, 201,0.5);
+}
+
+header {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+}
+
+span{
+    font-weight: bold;
+}

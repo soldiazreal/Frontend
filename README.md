@@ -4,3 +4,5 @@ Proyecto PetShop: https://soldiazreal.github.io/Frontend/ProyectoPetShop
 
 ProyectoCVBatman: https://soldiazreal.github.io/Frontend/ProyectoCVBatman
 
+Proyecto CV: https://soldiazreal.github.io/Frontend/ProyectoCVPropio
+
