@@ -95,4 +95,10 @@ main{
 
 footer{
     background-color: #222222;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 42px;
+    align-items: center;
 }
+
