@@ -1,0 +1,91 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 100px;
+    font-size: 24px;
+}
+
+header ul{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+li {
+    padding: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+
+}
+
+.pizza{
+    color: green;
+}
+
+.front{
+    color: red;
+}
+
+.card{
+    height: 400px;
+    width: 490px;
+    font-weight: 24px;
+    margin: 10px;
+    padding: 5px;
+}
+.envio{
+    color: red;
+    background-image: url("../img/delivery.jpg"); 
+    background-repeat: no-repeat;
+}
+
+.card .podio{
+    background-color: #FFFFFF;
+}
+
+.top5{
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+}
+
+.podio{
+    font-weight: 24px;
+}
+
+.envio span{
+    color:white;
+}
+
+main{
+    display:flex;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.pizza{
+    width:92px;
+    height: 129px;
+}
+
+.titulo2{
+    color:red;
+}
+
+footer{
+    background-color: #222222;
+}
