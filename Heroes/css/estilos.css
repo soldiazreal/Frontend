@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.informacion{
+    background-color: #1CD1B0;
+    font-size: 15px;
+}
+
+header{
+    line-height: 70px;
+    font-size: 20px;
+    background-color: #00669F;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    margin: 100px 80px;
+    background-color: #F3F3F3;
+    border-radius: 100;
+    
+}
+
+.card-text{
+    position: relative;
+    padding-top: 100px;
+}
+
+img{
+    position:absolute;
+    border-radius: 50%;
+    top: -20%;
+    left: 30%;
+}
+
+.fa-heart {
+    position: absolute;
+    color:#CC2424;
+    margin: 5%;
+    width: 20px;
+    height: 50px;
+}
+.card-img-batman{
+    background-color: #fff;
+    background-image: url("../img/background-batman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 193px;
+    width: 300px;
+    border-radius: 15% 15% 0% 0%
+}
+.card-img-harley{
+    background-color: #fff;
+    background-image: url("../img/background-harley.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 193px;
+    width: 300px;
+    border-radius: 15% 15% 0% 0%
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.card-text p{
+    padding: 5%;
+    font-size: 16px;
+}
+
+.card-button{
+    width: 56px;
+    height: 18px;
+    margin: 15px;
+    border: 15px;
+    background-color:#00669F;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+footer {
+    background-color:#00669F;
+    padding: 20px;
+    color: #FFF9F9;
+
+}
