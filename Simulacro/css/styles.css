@@ -55,7 +55,7 @@ header{
 }
 
 .banner{
-    background-image: url("../img/background.png");
+    background: #f3f3f3 url("../img/background.png") no-repeat center;
     max-width: 100%;
     height: 512px;
     font-size: 40px;
@@ -64,7 +64,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-repeat: no-repeat;
+
     background-size: cover;
 }
 
