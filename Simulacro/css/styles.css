@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+h1, .datos h2{
+    color: #F3F3F3;
+    font-size: 25px;
+}
+
+h1::before, .datos h2::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f11b";
+    padding-left: 15px;
+    padding-right: 10px;
+}
+h1 span{
+    font-weight: lighter;
+}
+span{
+    color:#D01418;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    align-items: center;
+    padding: 15px;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navegacion{
+    display: flex;
+}
+
+.navegacion a{
+    padding: 4px;
+    display:inline-block;
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+.shop{
+    padding-left: 25px;
+    padding-right: 15px;
+    color: red;
+}
+
+.banner{
+    background-image: url("../img/background.png");
+    max-width: 100%;
+    height: 512px;
+    font-size: 40px;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    background-color:#D01418;
+    text-decoration: none;
+    color:#F3F3F3;
+    padding: 15px 45px;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+.button:hover{
+    color:black;
+}
+.destacados, .estrellas{
+    background-color: #F3F3F3;
+}
+
+.destacados h2, .estrellas h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 3%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding:5%;
+}
+.primero, .segundo, .tercero{
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+img{
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    border-bottom: solid 1px;
+}
+hr{
+    max-width: 100%;
+}
+.envio{
+    font-size: 10px;
+    color:#619D00;
+}
+
+.cuotas{
+    font-size: 13px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+.categ{
+    display:flex;
+    justify-content: space-around;
+}
+
+.sillas, .computadoras{
+    width:360px;
+    max-width: 100%;
+    height: 135px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:5%;
+    margin-top: 2%;
+    border-radius: 3%;
+}
+
+.sillas p,.computadoras p{
+    font-size: 25px;
+    color:#f3f3f3;
+    text-align: right;
+    padding-top:60px;
+    padding-right:10px;
+}
+.sillas{
+    background-image: url(../img/banner.png);
+}
+
+.computadoras{
+    background-image: url(../img/banner2.png);
+}
+
+.datos{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2%;
+}
+.redes h4{
+    color:#F3F3F3;
+    font-size: 25px;
+
+}
+
+.facebook{
+    color: #1476D0;
+}
+
+.twitter{
+    color: #14AED0;
+}
+
+.instagram{
+    color:#CE0CFF;
+}
+
+.iconos{
+    padding:10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.derechos{
+    background-color:#C4C4C4;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
