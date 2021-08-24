@@ -103,3 +103,10 @@ footer {
     color: #FFF9F9;
 
 }
+
+@media screen and (max-width: 768){
+    .card{
+        flex-direction: column;
+        width:100%
+    }
+}
