@@ -10,7 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Petshop</title>
   </head>
 
@@ -24,7 +24,7 @@
     </div>
     <header>
       <div class="segundo_header">
-        <a href="index.html"
+        <a href="index.html" class="logo"
           ><img src="img/Cat.png" alt="Gato" />
           <h1>Front<span>Cat&Dog</span></h1>
           <img src="img/Dog.png" alt="Perro" />
@@ -32,27 +32,28 @@
         <nav>
           <ul type="none" class="lista">
             <li>
-              <a href="#"><i class="fas fa-paw"></i>Categorias</a>
+              <a href="#">Categorias</a>
             </li>
             <li>
-              <a href="#"><i class="fas fa-paw"></i>Pets</a>
+              <a href="#">Pets</a>
             </li>
             <li>
-              <a href="#"><i class="fas fa-paw"></i>Nosotros</a>
+              <a href="#">Nosotros</a>
             </li>
             <li>
-              <a href="#"><i class="fas fa-paw"></i>Contactanos</a>
+              <a href="#">Contactanos</a>
             </li>
           </ul>
         </nav>
+        <i class="fas fa-bars icono-menu"></i>
       </div>
     </header>
     <main>
       <section>
         <div class="background">
-          <p class="placer">Es un placer tenerte aqui!</p>
-          <p>Comederos en descuento!</p>
-          <a href="#" class="comederos">COMEDEROS </a>
+          <h2 class="placer">Es un placer tenerte aqui!</h2>
+          <p class="desccomederos">Comederos en descuento!</p>
+          <a href="#" class="button">COMEDEROS </a>
         </div>
       </section>
       <section>
@@ -60,54 +61,92 @@
           <i class="fas fa-paw patita"></i>
           <h2>Productos destacados</h2>
         </div>
-
         <ul type="none" class="categorias">
           <li><a href="#">Comederos</a></li>
           <li><a href="#">Accesorios</a></li>
           <li><a href="#">Comida</a></li>
         </ul>
-        <div class="menu">
+        <div class="cards">
           <div>
             <img src="img/churrasquito.png" alt="churrasquito" />
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
+            <p class="titulo">Juguete Churrasquito</p>
+            <p class="plata">$150</p>
           </div>
           <div>
             <img src="img/comedero.png" alt="comedero" />
-            <p>Comedero para perro</p>
-            <p>$250</p>
+            <p class="titulo">Comedero para perro</p>
+            <p class="plata">$250</p>
           </div>
           <div>
             <img src="img/Huesito.png" alt="huesito" />
-            <p>Juguete huesito</p>
-            <p>$650</p>
+            <p class="titulo">Juguete huesito</p>
+            <p class="plata">$650</p>
           </div>
         </div>
+      </section>
+      <section>
+        <form action="#" method="POST">
+          <h3>Contáctanos</h3>
+          <label for="nombre">Nombre y apellido:</label>
+          <input
+            class="input"
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Juan Perez"
+          />
+          <label for="email">E-mail:</label>
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="juancito@gmail.com"
+          />
+          <label for="tel">Telefono:</label>
+          <input
+            class="input"
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="43333333"
+          />
+          <div>
+            <input class="reset" type="reset" value="Reset" />
+            <input class="submit" type="submit" value="Enviar" />
+          </div>
+        </form>
       </section>
     </main>
     <footer>
       <div class="primer_footer">
         <div class="container">
           <div class="localidad">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Localidad</p>
-            <p>Calle - provincia</p>
+            <i class="fas fa-map-marker-alt ico" ></i>
+            <div class="datos">
+              <p>Localidad</p>
+              <p class="aclaracion">Calle - provincia</p>
+            </div>
           </div>
           <div class="telefono">
-            <i class="fas fa-phone-volume"></i>
-            <p>Telefono</p>
-            <p>Numero de telefono</p>
+            <i class="fas fa-phone-volume ico"></i>
+            <div class="datos">
+              <p>Telefono</p>
+              <p class="aclaracion">Numero de telefono</p>
+            </div>
           </div>
           <div class="correo">
-            <i class="far fa-envelope"></i>
-            <p>Correo electronico</p>
-            <p>Direccion de correo</p>
+            <i class="far fa-envelope ico"></i>
+            <div class="datos">
+              <p>Correo electronico</p>
+              <p class="aclaracion">Direccion de correo</p>
+            </div>
           </div>
         </div>
-          <div class="marca">
-            <img src="img/Cat.png" alt="Gato" />
-            <h2>Front<span>Cat&Dog</span></h2>
-            <img src="img/Dog.png" alt="Perro" />
+        <div class="marca">
+          <img src="img/Cat.png" alt="Gato" />
+          <h2>Front<span>Cat&Dog</span></h2>
+          <img src="img/Dog.png" alt="Perro" />
         </div>
       </div>
       <p class="segundo_footer">Todos los derechos reservados Front End</p>
